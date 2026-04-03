@@ -1,0 +1,96 @@
+/* Fundo da página */
+body {
+   background: #81919e; /* cinza suave melhorado */
+  max-width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #4CAF50, #81C784);
+  margin: 0;
+  padding: 0;
+}
+
+/* Container central */
+form {
+  background: #d7edff; /* cinza suave melhorado */
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 14px;
+
+  /* sombra melhorada */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+
+  /* leve borda */
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  color: #1b5e20;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+
+  border: 1px solid #b0b7bd; /* menos branco */
+  border-radius: 8px;
+
+  background: #d6dbe0; /* cinza leve */
+  transition: 0.3s;
+}
+
+/* Efeito ao clicar */
+input:focus,
+select:focus {
+  border-color: #4CAF50;
+  background: #eef2f4; /* clareia um pouco */
+  outline: none;
+  box-shadow: 0 0 6px rgba(76,175,80,0.4);
+}
+
+/* Radio e checkbox alinhados */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #2c2c2c;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #43a047;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+
+  /* efeito suave */
+  transition: all 0.3s ease;
+}
+
+/* Hover do botão */
+button:hover {
+  background: #2e7d32;
+  transform: scale(1.02); /* leve aumento */
+}
+
+/* Espaçamento */
+p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #1b5e20;
+}
